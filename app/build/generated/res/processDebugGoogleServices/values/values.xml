@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">895037114086</string>
+    <string name="google_api_key" translatable="false">AIzaSyDA-pxtKDT90-IF5xtXSUd0abNzGPQfhto</string>
+    <string name="google_app_id" translatable="false">1:895037114086:android:1d8c4d2cd240a355439d27</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDA-pxtKDT90-IF5xtXSUd0abNzGPQfhto</string>
+    <string name="google_storage_bucket" translatable="false">readingbook-4b0b7.appspot.com</string>
+    <string name="project_id" translatable="false">readingbook-4b0b7</string>
+</resources>

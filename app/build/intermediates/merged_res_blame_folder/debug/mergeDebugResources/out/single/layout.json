@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\dialog_message.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\dialog_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\item_image_story.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_image_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\dialog_info_app.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\dialog_info_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\item_story_favourite.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_story_favourite.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\dialog_confirm.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\dialog_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_post_story.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_post_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_post_management.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_post_management.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\item_account.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_buy_story.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_buy_story.xml"
+    },
+    {
+        "merged": "com.example.reading.app-mergeDebugResources-58:/layout/fragment_story.xml",
+        "source": "com.example.reading.app-main-61:/layout/fragment_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\holder_story.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\holder_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_recharge.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_recharge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_manager_story.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_manager_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_add_account.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_add_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_story_favourite.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_story_favourite.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\item_comment.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\item_header.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\popup_stories.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\popup_stories.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\item_story_name.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_story_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_start.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_edit_profile.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_pdf.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\toolbar_custom.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\toolbar_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\dialog_handle_otp.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\dialog_handle_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\item_image_arthor.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_image_arthor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_edit_story.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_edit_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_search_story.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_search_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\item_post.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\item_chapter.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_chapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_story.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_manage_account.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_manage_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-mergeDebugResources-58:\\layout\\fragment_story_detail.xml",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_story_detail.xml"
+    }
+]

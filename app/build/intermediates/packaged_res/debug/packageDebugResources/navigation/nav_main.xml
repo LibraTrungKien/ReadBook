@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.reading.presentation.view.fragment.SplashFragment"
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/actMainFragment"
+            app:destination="@id/mainFragment" />
+
+        <action
+            android:id="@+id/actLoginFragment"
+            app:destination="@id/loginFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.reading.presentation.view.fragment.RegisterFragment"
+        tools:layout="@layout/fragment_register">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.reading.presentation.view.fragment.LoginFragment"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/actMainFragment"
+            app:destination="@id/mainFragment" />
+
+        <action
+            android:id="@+id/actRegisterFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.reading.presentation.view.fragment.MainFragment"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/actStoryFragment"
+            app:destination="@id/storyFragment" />
+
+        <action
+            android:id="@+id/actSearchStoryFragment"
+            app:destination="@id/searchStoryFragment" />
+
+        <action
+            android:id="@+id/actStoryFavouriteFragment"
+            app:destination="@id/storyFavouriteFragment" />
+
+        <action
+            android:id="@+id/actPostStoryFragment"
+            app:destination="@id/postStoryFragment" />
+
+        <action
+            android:id="@+id/actManagerStoryFragment"
+            app:destination="@id/managerStoryFragment" />
+
+        <action
+            android:id="@+id/actLoginFragment"
+            app:destination="@id/loginFragment" />
+
+        <action
+            android:id="@+id/actManageAccountFragment"
+            app:destination="@id/manageAccountFragment" />
+
+        <action
+            android:id="@+id/actProfileFragment"
+            app:destination="@id/profileFragment" />
+
+        <action
+            android:id="@+id/actBuyStoryFragment"
+            app:destination="@id/buyStoryFragment" />
+
+        <action
+            android:id="@+id/actPostManagementFragment"
+            app:destination="@id/postManagementFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.example.reading.presentation.view.fragment.StoryFragment"
+        tools:layout="@layout/fragment_story">
+
+        <action
+            android:id="@+id/actStoryDetailFragment"
+            app:destination="@id/storyDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/postManagementFragment"
+        android:name="com.example.reading.presentation.view.fragment.PostManagementFragment"
+        tools:layout="@layout/fragment_post_management">
+
+        <action
+            android:id="@+id/actStoryDetailFragment"
+            app:destination="@id/storyDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/storyDetailFragment"
+        android:name="com.example.reading.presentation.view.fragment.StoryDetailFragment"
+        tools:layout="@layout/fragment_story_detail" />
+
+    <fragment
+        android:id="@+id/searchStoryFragment"
+        android:name="com.example.reading.presentation.view.fragment.SearchStoryFragment"
+        tools:layout="@layout/fragment_search_story">
+
+        <action
+            android:id="@+id/actStoryFragment"
+            app:destination="@id/storyFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/storyFavouriteFragment"
+        android:name="com.example.reading.presentation.view.fragment.StoryFavouriteFragment"
+        tools:layout="@layout/fragment_story_favourite">
+
+        <action
+            android:id="@+id/actStoryFragment"
+            app:destination="@id/storyFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/postStoryFragment"
+        android:name="com.example.reading.presentation.view.fragment.PostStoryFragment"
+        tools:layout="@layout/fragment_post_story">
+
+        <action
+            android:id="@+id/actSearchFragment"
+            app:destination="@id/searchFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/managerStoryFragment"
+        android:name="com.example.reading.presentation.view.fragment.ManagerStoryFragment"
+        tools:layout="@layout/fragment_manager_story" />
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.reading.presentation.view.fragment.SearchFragment"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/addNewAccountFragment"
+        android:name="com.example.reading.presentation.view.fragment.AddAccountFragment"
+        tools:layout="@layout/fragment_add_account" />
+
+    <fragment
+        android:id="@+id/manageAccountFragment"
+        android:name="com.example.reading.presentation.view.fragment.ManageAccountFragment"
+        tools:layout="@layout/fragment_manage_account">
+
+        <action
+            android:id="@+id/actAddNewAccountFragment"
+            app:destination="@id/addNewAccountFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.reading.presentation.view.fragment.ProfileFragment"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/actEditProfileFragment"
+            app:destination="@id/editProfileFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.reading.presentation.view.fragment.EditProfileFragment"
+        tools:layout="@layout/fragment_edit_profile" />
+
+    <fragment
+        android:id="@+id/buyStoryFragment"
+        android:name="com.example.reading.presentation.view.fragment.BuyStoryFragment"
+        tools:layout="@layout/fragment_buy_story">
+
+        <action
+            android:id="@+id/actStoryFragment"
+            app:destination="@id/storyFragment" />
+
+    </fragment>
+
+</navigation>

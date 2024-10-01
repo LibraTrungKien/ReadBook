@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "895037114086",
+    "project_id": "readingbook-4b0b7",
+    "storage_bucket": "readingbook-4b0b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895037114086:android:1d8c4d2cd240a355439d27",
+        "android_client_info": {
+          "package_name": "com.example.reading"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA-pxtKDT90-IF5xtXSUd0abNzGPQfhto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

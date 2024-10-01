@@ -1,0 +1,5 @@
+com.example.reading.test.app-jetified-core-1.6.1-0 C:\Users\Nguyen Trung Kien\.gradle\caches\transforms-4\8355e28964db14c33429adb1f6a3418f\transformed\jetified-core-1.6.1\res
+com.example.reading.test.app-androidTest-1 D:\reading_book\ReadingBook\app\build\generated\res\resValues\androidTest\debug
+com.example.reading.test.app-mergeDebugAndroidTestResources-2 D:\reading_book\ReadingBook\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.reading.test.app-mergeDebugAndroidTestResources-3 D:\reading_book\ReadingBook\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.reading.test.app-debugAndroidTest-4 D:\reading_book\ReadingBook\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
