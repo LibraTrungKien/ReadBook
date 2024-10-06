@@ -120,4 +120,7 @@
     <string name="fifty_cost">50k = 70 xu</string>
     <string name="oneHundred_cost">100k = 150 xu</string>
     <string name="fiveHundred_cost">500k = 800 xu</string>
+    <string name="list_user">Danh sách tài khoản</string>
+    <string name="accept">Kiểm duyệt</string>
+    <string name="delete_story">Xóa truyện</string>
 </resources>

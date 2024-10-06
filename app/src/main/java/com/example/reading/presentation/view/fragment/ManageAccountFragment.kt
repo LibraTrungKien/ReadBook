@@ -1,5 +1,7 @@
 package com.example.reading.presentation.view.fragment
 
+import android.view.View
+import android.view.View.OnClickListener
 import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavController
@@ -38,6 +40,7 @@ class ManageAccountFragment : BaseFragment<FragmentManageAccountBinding>() {
     }
 
     override fun initializeEvents() {
+        binding.toolbar.setNavigationOnClickListener { findNavController().popBackStack() }
         viewModel.dataLiveData.observe(viewLifecycleOwner) {
             controller.setData(it)
         }

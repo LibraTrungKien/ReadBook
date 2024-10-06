@@ -14,6 +14,10 @@ data class Story(
     var description: String = "",
     var chapters: ArrayList<Chapter> = arrayListOf()
 ) {
+
+    var userName = ""
+    var imageUser = ""
+
     fun getCategory(): String {
         return when (category) {
             Category.GHOST -> "Truyện ma"

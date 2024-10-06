@@ -40,6 +40,14 @@ class StoryViewModel @Inject constructor(
     val isRatedLiveData: LiveData<Boolean>
         get() = _isRatedLiveData
 
+    private val _successLiveData: MutableLiveData<Boolean> = MutableLiveData()
+    val successLiveData: LiveData<Boolean>
+        get() = _successLiveData
+
+    private val _accountLiveData: MutableLiveData<Boolean> = MutableLiveData()
+    val accountLiveData: LiveData<Boolean>
+        get() = _accountLiveData
+
     fun initializeArgument(bundle: Bundle) {
         val result = bundle.getString(Key.DATA)
         story = Gson().fromJson(result, Story::class.java)
@@ -47,6 +55,13 @@ class StoryViewModel @Inject constructor(
 
     fun addFavourite() {
         viewModelScope.launch { repository.addFavourite(story) }
+    }
+
+    fun deleteStory(){
+        viewModelScope.launch {
+            repository.deleteStory(story)
+            _successLiveData.postValue(true)
+        }
     }
 
     fun addComment(content: String) {
@@ -80,6 +95,7 @@ class StoryViewModel @Inject constructor(
     fun getAccount() {
         viewModelScope.launch {
             account = repository.getInfoAccount()
+            _accountLiveData.postValue(true)
         }
     }
 

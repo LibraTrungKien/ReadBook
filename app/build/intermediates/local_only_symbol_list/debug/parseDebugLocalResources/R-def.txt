@@ -100,6 +100,7 @@ id btnComment
 id btnCreateOrder
 id btnDelete
 id btnDeleteChapter
+id btnDeleteStory
 id btnFairyTales
 id btnFairyTalesVi
 id btnFifty
@@ -228,7 +229,6 @@ id txtDescription
 id txtGmail
 id txtHistory
 id txtName
-id txtPermission
 id txtPhoneNumber
 id txtRate
 id txtStoryName
@@ -281,8 +281,8 @@ menu menu_reader
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_main
-raw alo
-raw calculator
+raw ic_logo_splash
+string accept
 string account
 string account_detail
 string account_edit
@@ -321,6 +321,7 @@ string cost_not_enough
 string create_Bill
 string date_created
 string date_updated
+string delete_story
 string description
 string display_name
 string do_YouHaveAccount
@@ -357,6 +358,7 @@ string jokes_story
 string library
 string list_buy_story
 string list_chapter
+string list_user
 string login
 string logout
 string male

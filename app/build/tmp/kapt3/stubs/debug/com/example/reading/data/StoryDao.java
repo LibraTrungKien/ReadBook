@@ -4,7 +4,7 @@ package com.example.reading.data;
 @androidx.room.Dao
 public abstract interface StoryDao {
     
-    @androidx.room.Query(value = "\n        SELECT * \n        FROM StoryEntity \n        ORDER BY id DESC\n        ")
+    @androidx.room.Query(value = "\n        SELECT * \n        FROM StoryEntity \n        WHERE status = 1\n        ORDER BY id DESC\n        ")
     @org.jetbrains.annotations.Nullable
     public abstract java.lang.Object getAllStory(@org.jetbrains.annotations.NotNull
     kotlin.coroutines.Continuation<? super java.util.List<com.example.reading.data.entity.StoryEntity>> $completion);

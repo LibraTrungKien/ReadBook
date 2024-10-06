@@ -5,15 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#6001579B"
-    android:orientation="vertical"
-    android:padding="4dp">
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#558B2F"
+        app:navigationIcon="@drawable/ic_back"
+        app:navigationIconTint="@color/white"
+        app:title="@string/list_user"
+        app:titleTextColor="@color/white" />
 
     <EditText
         android:id="@+id/edtSearchAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
         android:autofillHints="phone"
-        android:background="@drawable/bg_search_view"
+        android:background="@drawable/bg_item_manage"
         android:drawableStart="@drawable/ic_search"
         android:drawablePadding="4dp"
         android:hint="@string/email"
@@ -26,7 +37,9 @@
         <com.airbnb.epoxy.EpoxyRecyclerView
             android:id="@+id/lstAccount"
             android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:listitem="@layout/item_account" />
 
@@ -34,6 +47,7 @@
             android:id="@+id/btnAddAccount"
             android:layout_width="48dp"
             android:layout_height="48dp"
+            android:visibility="gone"
             android:layout_gravity="end|bottom"
             android:layout_margin="16dp"
             app:icon="@drawable/ic_add_account" />

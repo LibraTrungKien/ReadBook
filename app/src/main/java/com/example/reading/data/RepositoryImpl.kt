@@ -96,7 +96,7 @@ class RepositoryImpl @Inject constructor(
         story.author_id = author
 
         val response = apiService.postStory(story.toDTO()).body()!!
-        localDataSource.save(response.toEntity())
+//        localDataSource.save(response.toEntity())
         return true
     }
 
@@ -176,7 +176,14 @@ class RepositoryImpl @Inject constructor(
     }
 
     override suspend fun getAllStoryNotApprove(): List<Story> {
-        return apiService.getAllStoryNotApprove().body() ?: listOf()
+        val data = apiService.getAllStoryNotApprove().body() ?: listOf()
+        if (data.isEmpty()) return listOf()
+        data.forEach {
+            val account = getUserById(it.author_id)
+            it.userName = account.username
+            it.imageUser = account.avatar
+        }
+        return data
     }
 
     override suspend fun getUserById(userId: Int): Account {

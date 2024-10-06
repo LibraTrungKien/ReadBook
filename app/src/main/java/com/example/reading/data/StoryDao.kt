@@ -17,6 +17,7 @@ interface StoryDao {
         """
         SELECT * 
         FROM StoryEntity 
+        WHERE status = 1
         ORDER BY id DESC
         """
     )

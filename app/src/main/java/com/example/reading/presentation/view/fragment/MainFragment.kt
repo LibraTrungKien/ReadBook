@@ -147,14 +147,21 @@ class MainFragment : BaseFragment<FragmentMainBinding>(), OnNavigationItemSelect
             R.id.manageAccountPage -> openManageAccountFragment()
             R.id.manageStoryPage -> manageStory()
             R.id.logoutPage -> showConfirmDialogLogout()
-//            R.id.rechargePage -> rechargeFragment()
-//            R.id.buyStoryPage -> openBuyStory()
             else -> Unit
         }
         return true
     }
 
     private fun manageStory(){
+        if (!viewModel.isAdmin()) {
+            MessageDialog.show(
+                parentFragmentManager,
+                requireContext().getString(R.string.notification),
+                requireContext().getString(R.string.youNeedAdminPermission),
+                R.drawable.ic_sad
+            ) {}
+            return
+        }
         PostManagementFragment.open(findNavController())
     }
 

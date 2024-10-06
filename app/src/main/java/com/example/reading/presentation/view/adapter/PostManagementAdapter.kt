@@ -1,5 +1,6 @@
 package com.example.reading.presentation.view.adapter
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,7 +8,7 @@ import com.bumptech.glide.Glide
 import com.example.reading.databinding.ItemPostBinding
 import com.example.reading.domain.model.Story
 
-class PostManagementAdapter : RecyclerView.Adapter<PostManagementAdapter.ViewHolder>() {
+class PostManagementAdapter(private val context: Context) : RecyclerView.Adapter<PostManagementAdapter.ViewHolder>() {
 
     var onApproveClicked: (Story) -> Unit = {}
     var onDeclineClicked: (Story) -> Unit = {}
@@ -52,9 +53,9 @@ class PostManagementAdapter : RecyclerView.Adapter<PostManagementAdapter.ViewHol
 
         fun bindView() {
             val item = data[absoluteAdapterPosition]
-            binding.txtUserName.text = item.author_id.toString()
+            binding.txtUserName.text = item.userName
             binding.txtStoryName.text = item.name + " - Chap " + item.chapters.last().index
-            Glide.with(binding.root.context).load(item.image).into(binding.imgUser)
+            Glide.with(context).load(item.imageUser).into(binding.imgUser)
         }
     }
 

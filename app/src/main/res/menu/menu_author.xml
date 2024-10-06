@@ -3,7 +3,7 @@
     <item
         android:id="@+id/manageStoryPage"
         android:icon="@drawable/ic_manage"
-        android:title="@string/manage_story" />
+        android:title="@string/accept" />
     <item
         android:id="@+id/myStore"
         android:icon="@drawable/ic_library_books"

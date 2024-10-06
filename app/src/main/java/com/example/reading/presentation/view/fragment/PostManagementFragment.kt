@@ -14,7 +14,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class PostManagementFragment: BaseFragment<FragmentPostManagementBinding>() {
 
     private val viewmodel: PostManagementViewModel by viewModels()
-    private val adapter: PostManagementAdapter = PostManagementAdapter()
+    private lateinit var adapter: PostManagementAdapter
 
     companion object {
         fun open(navController: NavController) {
@@ -25,6 +25,7 @@ class PostManagementFragment: BaseFragment<FragmentPostManagementBinding>() {
     override fun createViewBinding() = FragmentPostManagementBinding.inflate(layoutInflater)
 
     override fun initializeComponent() {
+        adapter = PostManagementAdapter(requireActivity())
         binding.lstPost.setHasFixedSize(false)
         binding.lstPost.adapter = adapter
     }

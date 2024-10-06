@@ -8,6 +8,8 @@ import android.widget.Toast
 import androidx.core.os.bundleOf
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
@@ -22,6 +24,7 @@ import com.example.reading.presentation.view.adapter.ChapterController
 import com.example.reading.presentation.view.adapter.CommentAdapter
 import com.example.reading.presentation.view.base.BaseFragment
 import com.example.reading.presentation.view.base.apiCall
+import com.example.reading.presentation.view.diglog.ConfirmDialog
 import com.example.reading.presentation.viewmodel.StoryViewModel
 import com.google.gson.Gson
 import dagger.hilt.android.AndroidEntryPoint
@@ -78,6 +81,12 @@ class StoryFragment : BaseFragment<FragmentStoryBinding>() {
             openStoryDetail()
         }
 
+        binding.btnDeleteStory.setOnClickListener {
+            ConfirmDialog.show(childFragmentManager, "Xác nhận", "Bạn chắc chắn có muốn xóa truyện này không?"){
+                viewModel.deleteStory()
+            }
+        }
+
         binding.btnAddFavourite.setOnClickListener {
             viewModel.addFavourite()
             Toast.makeText(
@@ -112,6 +121,10 @@ class StoryFragment : BaseFragment<FragmentStoryBinding>() {
             }
         }
 
+        viewModel.successLiveData.observe(this){
+            findNavController().popBackStack()
+        }
+
         val listStars = arrayOf(
             binding.imgStar1,
             binding.imgStar2,
@@ -122,6 +135,10 @@ class StoryFragment : BaseFragment<FragmentStoryBinding>() {
 
         viewModel.authorLiveData.observe(this){
             binding.txtAuthor.text = it.username
+        }
+
+        viewModel.accountLiveData.observe(this){
+            binding.btnDeleteStory.isVisible = viewModel.account.permission
         }
 
         listStars.forEachIndexed{ index, view ->

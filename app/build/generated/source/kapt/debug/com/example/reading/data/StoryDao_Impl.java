@@ -425,6 +425,7 @@ public final class StoryDao_Impl implements StoryDao {
     final String _sql = "\n"
             + "        SELECT * \n"
             + "        FROM StoryEntity \n"
+            + "        WHERE status = 1\n"
             + "        ORDER BY id DESC\n"
             + "        ";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);

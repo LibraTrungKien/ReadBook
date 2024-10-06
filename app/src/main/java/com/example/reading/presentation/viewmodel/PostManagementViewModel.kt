@@ -1,6 +1,5 @@
 package com.example.reading.presentation.viewmodel
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -26,7 +25,7 @@ class PostManagementViewModel @Inject constructor(private val appRepository: Rep
         }
     }
 
-    fun updateStatusStory(story: Story){
+    fun updateStatusStory(story: Story) {
         viewModelScope.launch {
             appRepository.putStory(story)
             getStoryNotYetApprove()

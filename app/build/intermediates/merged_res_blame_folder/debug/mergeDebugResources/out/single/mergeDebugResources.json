@@ -72,24 +72,24 @@
         "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\drawable\\ic_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\layout_fragment_main.xml.flat",
-        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\fragment_main.xml"
     },
     {
         "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\drawable_bg_button_round_4dp_ripple.xml.flat",
         "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\drawable\\bg_button_round_4dp_ripple.xml"
     },
     {
-        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\drawable_ic_setting.xml.flat",
-        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\drawable\\ic_setting.xml"
-    },
-    {
         "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\layout_item_story_name.xml.flat",
         "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\layout\\item_story_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\drawable_ic_setting.xml.flat",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\drawable\\ic_setting.xml"
     },
     {
         "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\drawable_ic_home.xml.flat",
@@ -110,6 +110,10 @@
     {
         "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\drawable_satisfied.png.flat",
         "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\drawable\\satisfied.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\raw_ic_logo_splash.json.flat",
+        "source": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-main-61:\\raw\\ic_logo_splash.json"
     },
     {
         "merged": "C:\\Users\\Nguyen Trung Kien\\.gradle\\daemon\\8.7\\com.example.reading.app-debug-59:\\drawable_ic_background_v3.jpg.flat",

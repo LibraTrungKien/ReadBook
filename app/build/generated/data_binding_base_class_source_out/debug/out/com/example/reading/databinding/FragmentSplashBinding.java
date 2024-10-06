@@ -4,9 +4,9 @@ package com.example.reading.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.reading.R;
 import java.lang.NullPointerException;
@@ -14,15 +14,15 @@ import java.lang.Override;
 
 public final class FragmentSplashBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
-  private FragmentSplashBinding(@NonNull LinearLayout rootView) {
+  private FragmentSplashBinding(@NonNull ConstraintLayout rootView) {
     this.rootView = rootView;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -47,6 +47,6 @@ public final class FragmentSplashBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new FragmentSplashBinding((LinearLayout) rootView);
+    return new FragmentSplashBinding((ConstraintLayout) rootView);
   }
 }

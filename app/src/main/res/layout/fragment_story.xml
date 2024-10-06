@@ -169,21 +169,45 @@
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/btnReadStory"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/bg_button_round_4dp"
-                android:backgroundTint="#C1006064"
-                android:foreground="?attr/selectableItemBackground"
-                android:paddingStart="16dp"
-                android:paddingTop="8dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="8dp"
-                android:text="@string/read_story"
-                android:textColor="@color/white" />
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/btnReadStory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_button_round_4dp"
+                    android:backgroundTint="#C1006064"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:paddingStart="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/read_story"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_marginStart="16dp"
+                    android:id="@+id/btnDeleteStory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_button_round_4dp"
+                    android:backgroundTint="#E91E63"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:paddingStart="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/delete_story"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/btnRate"

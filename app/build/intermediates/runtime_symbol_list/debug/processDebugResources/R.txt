@@ -3363,6 +3363,7 @@ int id btnComment 0x7f08007e
 int id btnCreateOrder 0x7f08007f
 int id btnDelete 0x7f080080
 int id btnDeleteChapter 0x7f0802b2
+int id btnDeleteStory 0x7f0802b5
 int id btnFairyTales 0x7f080081
 int id btnFairyTalesVi 0x7f080082
 int id btnFifty 0x7f080083
@@ -3891,7 +3892,6 @@ int id txtDescription 0x7f08028b
 int id txtGmail 0x7f08028c
 int id txtHistory 0x7f08028d
 int id txtName 0x7f08028e
-int id txtPermission 0x7f08028f
 int id txtPhoneNumber 0x7f080290
 int id txtRate 0x7f080291
 int id txtStoryName 0x7f080292
@@ -4167,8 +4167,7 @@ int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int navigation nav_main 0x7f0f0000
 int plurals mtrl_badge_content_description 0x7f100000
-int raw alo 0x7f110000
-int raw calculator 0x7f110001
+int raw ic_logo_splash 0x7f110002
 int string abc_action_bar_home_description 0x7f120000
 int string abc_action_bar_up_description 0x7f120001
 int string abc_action_menu_overflow_description 0x7f120002
@@ -4196,6 +4195,7 @@ int string abc_searchview_description_voice 0x7f120017
 int string abc_shareactionprovider_share_with 0x7f120018
 int string abc_shareactionprovider_share_with_application 0x7f120019
 int string abc_toolbar_collapse_description 0x7f12001a
+int string accept 0x7f120129
 int string account 0x7f12001b
 int string account_detail 0x7f12001c
 int string account_edit 0x7f12001d
@@ -4253,6 +4253,7 @@ int string cost_not_enough 0x7f120050
 int string create_Bill 0x7f120051
 int string date_created 0x7f120052
 int string date_updated 0x7f120053
+int string delete_story 0x7f12012b
 int string description 0x7f120054
 int string dest_title 0x7f120055
 int string display_name 0x7f120056
@@ -4299,6 +4300,7 @@ int string left 0x7f12007e
 int string library 0x7f12007f
 int string list_buy_story 0x7f120080
 int string list_chapter 0x7f120081
+int string list_user 0x7f12012a
 int string login 0x7f120082
 int string logout 0x7f120083
 int string m3_exceed_max_badge_text_suffix 0x7f120084

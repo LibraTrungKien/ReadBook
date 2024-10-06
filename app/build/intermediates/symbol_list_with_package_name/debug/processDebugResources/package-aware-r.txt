@@ -3364,6 +3364,7 @@ id btnComment
 id btnCreateOrder
 id btnDelete
 id btnDeleteChapter
+id btnDeleteStory
 id btnFairyTales
 id btnFairyTalesVi
 id btnFifty
@@ -3892,7 +3893,6 @@ id txtDescription
 id txtGmail
 id txtHistory
 id txtName
-id txtPermission
 id txtPhoneNumber
 id txtRate
 id txtStoryName
@@ -4168,8 +4168,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_main
 plurals mtrl_badge_content_description
-raw alo
-raw calculator
+raw ic_logo_splash
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4197,6 +4196,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string accept
 string account
 string account_detail
 string account_edit
@@ -4254,6 +4254,7 @@ string cost_not_enough
 string create_Bill
 string date_created
 string date_updated
+string delete_story
 string description
 string dest_title
 string display_name
@@ -4300,6 +4301,7 @@ string left
 string library
 string list_buy_story
 string list_chapter
+string list_user
 string login
 string logout
 string m3_exceed_max_badge_text_suffix
